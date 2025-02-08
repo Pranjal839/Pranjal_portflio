@@ -245,6 +245,11 @@ body {
     font-size: 1.4em;
     color: #333;
 }
+.project-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
 
 /* Contact Section */
 #contact {
