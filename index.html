@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranjal Sharma - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="top-bar">
+            <p>Email: <a href="mailto:pranjal.sharma@example.com">pranjal.sharma@example.com</a></p>
+            <p>Phone: +91-9876543210</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="overlay"></div>
+            <div class="content">
+                <h1>Hello, I'm <span>Pranjal Sharma</span></h1>
+                <p>
+                    A passionate Bachelor of Computer Applications student skilled in C++, Data Structures, and Web Development. Eager to learn and grow as a software developer.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="profile.jpg" alt="Pranjal Sharma" class="profile-pic">
+            <div class="about-details">
+                <p>
+                    Hi! I'm <strong>Pranjal Sharma</strong>, a passionate Bachelor of Computer Applications student at Allenhouse Business School. My expertise lies in <span class="highlight">C++</span>, <span class="highlight">Data Structures</span>, and <span class="highlight">Web Development</span>. I love building scalable applications and exploring the tech world.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me reading about emerging technologies or exploring new tools to enhance my development skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-icon"><i class="fas fa-graduation-cap"></i></span>
+                <div class="timeline-content">
+                    <h3>BCA</h3>
+                    <p>Allenhouse Business School, Kanpur</p>
+                    <span class="timeline-date">2022 - Present</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-icon"><i class="fas fa-school"></i></span>
+                <div class="timeline-content">
+                    <h3>12th</h3>
+                    <p>SVM Inter College Gopinath</p>
+                    <span class="timeline-date">2020 - 2022</span>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span class="timeline-icon"><i class="fas fa-school"></i></span>
+                <div class="timeline-content">
+                    <h3>10th</h3>
+                    <p>OEF Inter College</p>
+                    <span class="timeline-date">2018 - 2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <i class="fab fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>C++</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>Database</h3>
+            </div>
+            <div class="skill">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Problem Solving</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-carousel">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A responsive personal portfolio built using HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn primary">View Live</a>
+                <a href="https://github.com/yourgithub/portfolio" class="btn secondary">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Library Management System</h3>
+                <p>A C++ project implementing data structures for efficient library management.</p>
+                <a href="#" class="btn primary">View Details</a>
+            </div>
+            <div class="project-card">
+                <h3>Event Management System</h3>
+                <p>A dynamic website to manage event registrations using HTML, CSS, and SQL.</p>
+                <a href="#" class="btn primary">View Demo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:pranjal.sharma@example.com">pranjal.sharma@example.com</a></p>
+                <p><i class="fas fa-phone"></i> +91-9876543210</p>
+            </div>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pranjal Sharma. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
