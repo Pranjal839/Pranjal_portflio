@@ -359,33 +359,3 @@ footer {
         text-align: center;
     }
 }
-/* Resume Section */
-#resume {
-    padding: 80px 20px;
-    background: #f4f4f4;
-    text-align: center;
-}
-
-.resume-content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.resume-content p {
-    font-size: 1.1em;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.resume-content .btn {
-    padding: 10px 20px;
-    background: #4caf50;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-.resume-content .btn:hover {
-    background: #45a049;
-}
